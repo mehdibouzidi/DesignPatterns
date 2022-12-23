@@ -1,7 +1,7 @@
 package me.mbouzidi.designpatterns.creational.builder.functionalinterface;
 
 /**
- * This builder will oblige you to build the object in a specific order
+ * This builder obliges you to construct the object in a specific order
  * */
 public class Car {
     private int seats;
