@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.creational.builder.functionalinterface;
+package me.mbouzidi.designpatterns.creational.builder.consumer;
 
 public class Car {
     private int seats;
@@ -9,7 +9,7 @@ public class Car {
     public Car() {
     }
 
-    public Car(CarBuilderFctInt builder) {
+    public Car(CarBuilderConsumer builder) {
         this.seats = builder.seats;
         this.engine = builder.engine;
         this.tripComputer = builder.tripComputer;

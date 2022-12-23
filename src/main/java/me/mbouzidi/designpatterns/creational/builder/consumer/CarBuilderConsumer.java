@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.creational.builder.functionalinterface;
+package me.mbouzidi.designpatterns.creational.builder.consumer;
 
 
 import java.util.function.Consumer;
@@ -7,13 +7,13 @@ import java.util.function.Consumer;
  * ssource: https://medium.com/beingprofessional/think-functional-advanced-builder-pattern-using-lambda-284714b85ed5
  *
  */
-public class CarBuilderFctInt {
+public class CarBuilderConsumer {
     public int seats;
     public String engine;
     public String tripComputer;
     public String GPS;
 
-    public CarBuilderFctInt with(Consumer<CarBuilderFctInt> builderFonction){
+    public CarBuilderConsumer with(Consumer<CarBuilderConsumer> builderFonction){
         builderFonction.accept(this);
         return this;
     }
