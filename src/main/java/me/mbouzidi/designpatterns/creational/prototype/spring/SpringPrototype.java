@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.creational.prototype;
+package me.mbouzidi.designpatterns.creational.prototype.spring;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
