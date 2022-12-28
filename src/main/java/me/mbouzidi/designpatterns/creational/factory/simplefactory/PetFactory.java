@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.creational.factory.factorymethod;
+package me.mbouzidi.designpatterns.creational.factory.simplefactory;
 
 public class PetFactory {
     public Pet createPet(String animalType){

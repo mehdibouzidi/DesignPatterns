@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.creational.factory.factorymethod;
+package me.mbouzidi.designpatterns.creational.factory.simplefactory;
 
 public class Cat implements Pet {
     private String name;
