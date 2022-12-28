@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * source: https://stackoverflow.com/questions/31754786/how-to-implement-the-builder-pattern-in-java-8
+ * Source: https://stackoverflow.com/questions/31754786/how-to-implement-the-builder-pattern-in-java-8
  * */
 public class GenericBuilder<T> {
 

@@ -2,6 +2,7 @@ package me.mbouzidi.designpatterns.creational.builder.functionalinterface;
 
 /**
  * This builder obliges you to construct the object in a specific order
+ * Source: https://benjiweber.co.uk/blog/2014/11/02/builder-pattern-with-java-8-lambdas/
  * */
 public class Car {
     private int seats;

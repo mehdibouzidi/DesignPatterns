@@ -1,5 +1,9 @@
 package me.mbouzidi.designpatterns.creational.factory.simplefactory;
 
+/**
+ *
+ * Source: Spring Design Patterns - Frank P Moley / LinkedinLearning
+ * */
 public class PetFactory {
     public Pet createPet(String animalType){
         switch(animalType.toLowerCase()){

@@ -7,6 +7,9 @@ import me.mbouzidi.designpatterns.creational.builder.Car;
 // products according to a specific order or configuration.
 // Strictly speaking, the director class is optional, since the
 // client can control builders directly.
+/**
+ * Source: RefactoringGuru
+ * */
 public class Director {
 
     public IBuilder constructSportCar(IBuilder builder){
