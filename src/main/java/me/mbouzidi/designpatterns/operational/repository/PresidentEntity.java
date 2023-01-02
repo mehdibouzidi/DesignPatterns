@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.behavioral.repository;
+package me.mbouzidi.designpatterns.operational.repository;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

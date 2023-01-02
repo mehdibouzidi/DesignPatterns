@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.behavioral.repository;
+package me.mbouzidi.designpatterns.operational.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
