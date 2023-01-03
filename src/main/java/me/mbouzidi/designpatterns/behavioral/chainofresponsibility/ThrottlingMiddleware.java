@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.chainofresponsibility;
+package me.mbouzidi.designpatterns.behavioral.chainofresponsibility;
 
 /**
  * ConcreteHandler. Checks whether there are too many failed login requests.

@@ -1,4 +1,4 @@
-package me.mbouzidi.designpatterns.chainofresponsibility;
+package me.mbouzidi.designpatterns.behavioral.chainofresponsibility;
 
 /**
  * ConcreteHandler. Checks whether a user with the given credentials exists.
