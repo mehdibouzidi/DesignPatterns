@@ -2,6 +2,9 @@ package me.mbouzidi.designpatterns.structural.proxy;
 
 import java.util.List;
 
+/**
+ * Source: https://refactoring.guru/design-patterns/proxy
+ * ***/
 public class CachedYouTubeClass implements ThirdPartyYouTubeLib{
     private ThirdPartyYouTubeLib service;
     private List<String> listCache, videoCache;
